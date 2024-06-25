@@ -1,0 +1,1978 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: auto;     /* Scroll horizontal jika diperlukan */
+      overflow-y: auto;   /* Sembunyikan scroll vertikal */
+      white-space: nowrap;  /* Hindari pemotongan teks ke baris baru */
+}
+
+.dahboard {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  display: inline-block; /* Mengatur elemen agar inline-block untuk mematuhi white-space: nowrap */
+  width: 100%;  
+}
+
+.dahboard .div {
+  background-color: #f1f1f1;
+  overflow: hidden;
+  width: 1440px;
+  height: 648px;
+  position: relative;
+}
+
+.dahboard .container {
+  position: absolute;
+  width: 236px;
+  height: 649px;
+  top: 0;
+  left: 0;
+  background-color: var(--secondary);
+  border-radius: 4px;
+}
+
+.dahboard .overlap {
+  position: absolute;
+  width: 236px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+}
+
+.dahboard .company-name-wrapper {
+  position: absolute;
+  width: 236px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: var(--unnamed-color);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .company-name {
+  position: absolute;
+  top: 10px;
+  left: 59px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-primary);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.dahboard .image {
+  position: absolute;
+  width: 36px;
+  height: 34px;
+  top: 8px;
+  left: 14px;
+}
+
+.dahboard .personalia-dashboard {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  top: 128px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.personalia-dashboard:hover {
+  background-color:purple;
+}
+
+.dahboard .text-wrapper {
+  position: absolute;
+  top: 7px;
+  left: 50px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-text);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.dahboard .img {
+  position: absolute;
+  width: 19px;
+  height: 18px;
+  top: 10px;
+  left: 19px;
+}
+
+.dahboard .employee-name {
+  position: absolute;
+  top: 71px;
+  left: 80px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #f8f9fa;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.dahboard .employee-data {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  top: 186px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.employee-data:hover {
+  background-color: purple;
+}
+
+.dahboard .image-2 {
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  top: 8px;
+  left: 17px;
+}
+
+.dahboard .payroll {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  top: 244px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.payroll:hover {
+  background-color: purple;
+}
+
+.dahboard .image-3 {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  top: 8px;
+  left: 18px;
+}
+
+.dahboard .attendance {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  top: 302px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.attendance:hover {
+  background-color: purple;
+}
+
+.dahboard .image-4 {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  top: 9px;
+  left: 18px;
+}
+
+.dahboard .container-2 {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  top: 360px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.container-2:hover {
+  background-color: purple;
+}
+
+.dahboard .image-5 {
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  top: 9px;
+  left: 18px;
+}
+
+.dahboard .container-3 {
+  top: 418px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.container-3:hover {
+  background-color: purple;
+}
+
+.dahboard .image-6 {
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  top: 10px;
+  left: 19px;
+}
+
+.dahboard .container-4 {
+  top: 476px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.container-4:hover {
+  background-color: purple;
+}
+
+.dahboard .image-7 {
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  top: 10px;
+  left: 18px;
+}
+
+.dahboard .avatar {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 62px;
+  left: 25px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.dahboard .rectangle {
+  width: 40px;
+  height: 40px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.dahboard .container-5 {
+  position: absolute;
+  width: 221px;
+  height: 41px;
+  top: 534px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .overlap-group {
+  position: absolute;
+  width: 93px;
+  height: 27px;
+  top: 8px;
+  left: 15px;
+}
+
+.dahboard .dark {
+  position: absolute;
+  top: 1px;
+  left: 24px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.dahboard .image-8 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.dahboard .overlap-2 {
+  position: absolute;
+  width: 95px;
+  height: 26px;
+  top: 8px;
+  left: 118px;
+  border-radius: 6px;
+}
+
+.dahboard .button {
+  all: unset;
+  box-sizing: border-box;
+  width: 95px;
+  height: 26px;
+  top: 0;
+  left: 0;
+  background-color: #fefefe;
+  border-radius: 6px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.dahboard .light {
+  position: absolute;
+  width: 62px;
+  top: 2px;
+  left: 27px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.dahboard .image-9 {
+  position: absolute;
+  width: 18px;
+  height: 21px;
+  top: 3px;
+  left: 5px;
+}
+
+.dahboard .container-6 {
+  position: absolute;
+  width: 1204px;
+  height: 53px;
+  top: -2px;
+  left: 236px;
+  background-color: #7166f9;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .textbox {
+  position: absolute;
+  width: 195px;
+  height: 31px;
+  top: 10px;
+  left: 209px;
+  background-color: var(--unnamed-color);
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: var(--variable-collection-primary);
+}
+
+.dahboard .text-wrapper-2 {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.dahboard .group {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 8px;
+  left: 172px;
+}
+
+.dahboard .header-menu {
+  position: absolute;
+  width: 163px;
+  height: 52px;
+  top: 0;
+  left: 20px;
+}
+
+.dahboard .overlap-group-wrapper {
+  position: relative;
+  width: 166px;
+  height: 52px;
+  left: -3px;
+}
+
+.dahboard .overlap-group-2 {
+  position: relative;
+  height: 52px;
+}
+
+.dahboard .frame {
+  position: absolute;
+  width: 74px;
+  height: 52px;
+  top: 0;
+  left: 93px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dahboard .text-wrapper-3 {
+  top: 14px;
+  left: 9px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .frame-2 {
+  position: absolute;
+  width: 93px;
+  height: 52px;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dahboard .text-wrapper-4 {
+  top: 14px;
+  left: 43px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .vector {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 14px;
+  left: 6px;
+}
+
+.dahboard .vector-2 {
+  position: absolute;
+  width: 21px;
+  height: 2px;
+  top: 19px;
+  left: 0;
+}
+
+.dahboard .vector-3 {
+  position: absolute;
+  width: 21px;
+  height: 2px;
+  top: 31px;
+  left: 0;
+}
+
+.dahboard .vector-4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 16px;
+  left: 1154px;
+}
+
+.dahboard .image-10 {
+  position: absolute;
+  width: 21px;
+  height: 20px;
+  top: 16px;
+  left: 1110px;
+}
+
+.dahboard .container-wrapper {
+  position: absolute;
+  width: 284px;
+  height: 134px;
+  top: 119px;
+  left: 1129px;
+  background-color: #0fabed;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .container-7 {
+  position: relative;
+  height: 134px;
+  background-color: #b6ffab;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .my-task {
+  position: absolute;
+  top: 59px;
+  left: 12px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-5 {
+  top: 9px;
+  left: 12px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 31px;
+  line-height: 48px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .image-11 {
+  position: absolute;
+  width: 62px;
+  height: 61px;
+  top: 21px;
+  left: 203px;
+}
+
+.dahboard .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  width: 284px;
+  height: 29px;
+  top: 105px;
+  left: 0;
+  background-color: var(--secondary);
+  border-radius: 3px;
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button-2:hover {
+  background-color: purple;
+}
+
+.dahboard .text-wrapper-6 {
+  position: absolute;
+  top: 2px;
+  left: 99px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 23px;
+  white-space: nowrap;
+}
+
+.dahboard .vector-5 {
+  position: absolute;
+  width: 13px;
+  height: 10px;
+  top: 9px;
+  left: 169px;
+}
+
+.dahboard .div-wrapper {
+  position: absolute;
+  width: 284px;
+  height: 134px;
+  top: 119px;
+  left: 834px;
+  background-color: var(--secondary);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .container-8 {
+  position: relative;
+  height: 134px;
+  background-color: #ffe7aa;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .text-wrapper-7 {
+  position: absolute;
+  top: 59px;
+  left: 13px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.dahboard .arrow-right {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 6px;
+  left: 168px;
+}
+
+.dahboard .container-9 {
+  position: absolute;
+  width: 284px;
+  height: 134px;
+  top: 119px;
+  left: 247px;
+  background-color: #7166f9;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .container-10 {
+  position: relative;
+  height: 134px;
+  background-color: #ffabab;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .text-wrapper-8 {
+  position: absolute;
+  top: 9px;
+  left: 13px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 31px;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-9 {
+  position: absolute;
+  top: 58px;
+  left: 12px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.dahboard .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 284px;
+  height: 29px;
+  top: 105px;
+  left: 0;
+  background-color: #7166f9;
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button-3:hover {
+  background-color: purple;
+}
+
+.dahboard .image-12 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 22px;
+  left: 207px;
+}
+
+.dahboard .container-11 {
+  position: absolute;
+  width: 284px;
+  height: 134px;
+  top: 119px;
+  left: 541px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .container-12 {
+  position: relative;
+  height: 134px;
+  background-color: #aee0fc;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .text-wrapper-10 {
+  left: 11px;
+  font-size: 30px;
+  line-height: 46px;
+  position: absolute;
+  top: 9px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-11 {
+  position: absolute;
+  top: 59px;
+  left: 11px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.dahboard .image-13 {
+  position: absolute;
+  width: 64px;
+  height: 61px;
+  top: 22px;
+  left: 206px;
+}
+
+.dahboard .vector-6 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 6px;
+  left: 167px;
+}
+
+.dahboard .image-14 {
+  position: absolute;
+  width: 65px;
+  height: 66px;
+  top: 16px;
+  left: 497px;
+}
+
+.dahboard .text-wrapper-12 {
+  top: 64px;
+  left: 251px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 36px;
+  position: absolute;
+  color: #171a1f;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-13 {
+  top: 68px;
+  left: 1325px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  color: #171a1f;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-14 {
+  position: absolute;
+  top: 68px;
+  left: 1276px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.dahboard .container-13 {
+  position: absolute;
+  width: 680px;
+  height: 315px;
+  top: 275px;
+  left: 247px;
+  background-color: var(--secondary);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .overlap-3 {
+  position: absolute;
+  width: 680px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+}
+
+.dahboard .container-14 {
+  position: absolute;
+  width: 680px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  background-color: var(--unnamed-color);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .text-wrapper-15 {
+  position: absolute;
+  top: 7px;
+  left: 60px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.dahboard .container-15 {
+  position: absolute;
+  width: 113px;
+  height: 34px;
+  top: 6px;
+  left: 560px;
+  background-color: var(--secondary);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .button-4 {
+  all: unset;
+  box-sizing: border-box;
+  width: 28px;
+  height: 29px;
+  top: 3px;
+  left: 5px;
+  background-color: var(--variable-collection-primary);
+  border-radius: 3px;
+  border: 0.5px solid;
+  border-color: #ffffff;
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button-4:hover {
+  background-color: purple;
+}
+
+.dahboard .text {
+  left: 8px;
+  color: #69a9e0;
+  font-size: 11px;
+  line-height: 18px;
+  position: absolute;
+  top: 6px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .vector-7 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 9px;
+  left: 9px;
+}
+
+.dahboard .button-5 {
+  all: unset;
+  box-sizing: border-box;
+  width: 19px;
+  height: 29px;
+  top: 3px;
+  left: 89px;
+  background-color: var(--variable-collection-primary);
+  border-radius: 3px;
+  border: 0.5px solid;
+  border-color: #ffffff;
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button-5:hover {
+  background-color: purple;
+}
+
+.dahboard .text-wrapper-16 {
+  left: 7px;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 17px;
+  position: absolute;
+  top: 6px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .button-6 {
+  all: unset;
+  box-sizing: border-box;
+  left: 33px;
+  position: absolute;
+  width: 28px;
+  height: 29px;
+  top: 3px;
+  background-color: var(--variable-collection-primary);
+  border-radius: 3px;
+  overflow: hidden;
+  border: 0.5px solid;
+  border-color: #ffffff;
+  cursor: pointer;
+}
+
+.button-6:hover {
+  background-color: purple;
+}
+
+.dahboard .text-2 {
+  left: 8px;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 18px;
+  position: absolute;
+  top: 6px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .button-7 {
+  all: unset;
+  box-sizing: border-box;
+  left: 61px;
+  position: absolute;
+  width: 28px;
+  height: 29px;
+  top: 3px;
+  background-color: var(--variable-collection-primary);
+  border-radius: 3px;
+  overflow: hidden;
+  border: 0.5px solid;
+  border-color: #ffffff;
+  cursor: pointer;
+}
+
+.button-7:hover {
+  background-color: purple;
+}
+
+.dahboard .text-3 {
+  left: 8px;
+  color: transparent;
+  font-size: 11px;
+  line-height: 18px;
+  position: absolute;
+  top: 6px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .image-15 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  left: 29px;
+}
+
+.dahboard .container-16 {
+  position: absolute;
+  width: 639px;
+  height: 38px;
+  top: 258px;
+  left: 21px;
+  background-color: var(--unnamed-color);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .button-8 {
+  all: unset;
+  box-sizing: border-box;
+  width: 62px;
+  height: 21px;
+  top: 8px;
+  left: 550px;
+  background-color: #2663eb;
+  border-radius: 3px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.dahboard .element-month {
+  position: absolute;
+  top: 1px;
+  left: 23px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.dahboard .image-16 {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  top: 3px;
+  left: 5px;
+}
+
+.dahboard .checkbox {
+  position: absolute;
+  width: 225px;
+  height: 20px;
+  top: 9px;
+  left: 41px;
+}
+
+.dahboard .frame-3 {
+  position: relative;
+  height: 20px;
+}
+
+.dahboard .rectangle-2 {
+  width: 12px;
+  height: 12px;
+  top: 4px;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+}
+
+.dahboard .p {
+  position: absolute;
+  top: -12px;
+  left: 22px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.dahboard .image-17 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 10px;
+  left: 15px;
+}
+
+.dahboard .container-17 {
+  width: 637px;
+  top: 68px;
+  position: absolute;
+  height: 38px;
+  left: 21px;
+  background-color: var(--unnamed-color);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .button-9 {
+  all: unset;
+  box-sizing: border-box;
+  top: 8px;
+  left: 550px;
+  background-color: #ff0000;
+  position: absolute;
+  width: 62px;
+  height: 21px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.dahboard .element-month-2 {
+  position: absolute;
+  width: 36px;
+  top: 1px;
+  left: 23px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.dahboard .image-18 {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  top: 3px;
+  left: 6px;
+}
+
+.dahboard .frame-wrapper {
+  position: absolute;
+  width: 225px;
+  height: 20px;
+  top: 10px;
+  left: 41px;
+}
+
+.dahboard .rectangle-3 {
+  width: 12px;
+  height: 12px;
+  top: 4px;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: transparent;
+  position: absolute;
+  left: 0;
+}
+
+.dahboard .container-18 {
+  width: 637px;
+  top: 115px;
+  position: absolute;
+  height: 38px;
+  left: 21px;
+  background-color: var(--unnamed-color);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .button-10 {
+  all: unset;
+  box-sizing: border-box;
+  top: 9px;
+  left: 550px;
+  background-color: #379ae6;
+  position: absolute;
+  width: 62px;
+  height: 21px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.dahboard .element-month-3 {
+  position: absolute;
+  top: 1px;
+  left: 22px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.dahboard .container-19 {
+  width: 637px;
+  top: 163px;
+  position: absolute;
+  height: 38px;
+  left: 21px;
+  background-color: var(--unnamed-color);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .button-11 {
+  all: unset;
+  box-sizing: border-box;
+  top: 8px;
+  left: 550px;
+  background-color: #ffd317;
+  position: absolute;
+  width: 62px;
+  height: 21px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.dahboard .container-20 {
+  width: 639px;
+  top: 210px;
+  position: absolute;
+  height: 38px;
+  left: 21px;
+  background-color: var(--unnamed-color);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .button-12 {
+  all: unset;
+  box-sizing: border-box;
+  top: 8px;
+  left: 550px;
+  background-color: #62cd14;
+  position: absolute;
+  width: 62px;
+  height: 21px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.dahboard .container-21 {
+  position: absolute;
+  width: 468px;
+  height: 316px;
+  top: 0px;
+  left: 700px;
+  background-color: var(--unnamed-color);
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.dahboard .text-wrapper-17 {
+  position: absolute;
+  top: 52px;
+  left: 202px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-18 {
+  position: absolute;
+  top: 10px;
+  left: 42px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-19 {
+  position: absolute;
+  top: 84px;
+  left: 226px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-20 {
+  top: 84px;
+  left: 97px;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-21 {
+  position: absolute;
+  top: 84px;
+  left: 294px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-22 {
+  position: absolute;
+  top: 84px;
+  left: 33px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-23 {
+  position: absolute;
+  top: 84px;
+  left: 163px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-24 {
+  position: absolute;
+  top: 84px;
+  left: 413px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-25 {
+  top: 112px;
+  left: 99px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary);
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-26 {
+  top: 168px;
+  left: 414px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-27 {
+  top: 196px;
+  left: 295px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-28 {
+  top: 196px;
+  left: 355px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-29 {
+  top: 224px;
+  left: 295px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-30 {
+  top: 224px;
+  left: 164px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-31 {
+  top: 224px;
+  left: 99px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-32 {
+  top: 224px;
+  left: 33px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-33 {
+  top: 112px;
+  left: 164px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary);
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-34 {
+  top: 112px;
+  left: 34px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary);
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-35 {
+  top: 140px;
+  left: 356px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-36 {
+  top: 140px;
+  left: 414px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-37 {
+  top: 168px;
+  left: 229px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-38 {
+  top: 168px;
+  left: 296px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-39 {
+  top: 168px;
+  left: 356px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-40 {
+  top: 168px;
+  left: 34px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-41 {
+  top: 168px;
+  left: 164px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-42 {
+  top: 196px;
+  left: 34px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-43 {
+  top: 196px;
+  left: 229px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-44 {
+  top: 196px;
+  left: 414px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-45 {
+  top: 196px;
+  left: 164px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-46 {
+  top: 196px;
+  left: 99px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-47 {
+  top: 224px;
+  left: 229px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-48 {
+  position: absolute;
+  top: 84px;
+  left: 357px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-49 {
+  top: 168px;
+  left: 100px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-50 {
+  top: 112px;
+  left: 417px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-51 {
+  top: 112px;
+  left: 299px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-52 {
+  top: 112px;
+  left: 359px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-53 {
+  top: 140px;
+  left: 37px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-54 {
+  top: 140px;
+  left: 103px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-55 {
+  top: 140px;
+  left: 233px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-56 {
+  top: 140px;
+  left: 299px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-57 {
+  top: 140px;
+  left: 167px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-58 {
+  top: 252px;
+  left: 233px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary);
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-59 {
+  top: 252px;
+  left: 167px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary);
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-60 {
+  top: 112px;
+  left: 233px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-61 {
+  top: 252px;
+  left: 103px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary);
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-62 {
+  top: 252px;
+  left: 38px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary);
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-63 {
+  top: 252px;
+  left: 299px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary);
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .text-wrapper-64 {
+  top: 224px;
+  left: 418px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .button-13 {
+  all: unset;
+  box-sizing: border-box;
+  width: 44px;
+  height: 25px;
+  top: 223px;
+  left: 344px;
+  background-color: var(--variable-collection-primary);
+  border-radius: 3px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.dahboard .text-wrapper-65 {
+  top: 0;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 23px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.dahboard .image-19 {
+  position: absolute;
+  width: 24px;
+  height: 22px;
+  top: 11px;
+  left: 9px;
+}
+
+.dahboard .image-20 {
+  position: absolute;
+  width: 24px;
+  height: 22px;
+  top: 53px;
+  left: 30px;
+}
+
+.dahboard .image-21 {
+  position: absolute;
+  width: 24px;
+  height: 22px;
+  top: 53px;
+  left: 409px;
+}
+
+.dahboard .vector-8 {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 20px;
+  left: 448px;
+}
+
+.dahboard .image-22 {
+  position: absolute;
+  width: 19px;
+  height: 14px;
+  top: 18px;
+  left: 390px;
+}
+
+.dahboard .image-23 {
+  position: absolute;
+  width: 19px;
+  height: 14px;
+  top: 18px;
+  left: 419px;
+}
+
+.checked p {
+  text-decoration: line-through;
+}

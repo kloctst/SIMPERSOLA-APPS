@@ -1,0 +1,1750 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.payroll {
+  background-color: #f4f6f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.payroll .div {
+  background-color: #f4f6f9;
+  width: 1440px;
+  height: 648px;
+  position: relative;
+}
+
+.payroll .container {
+  position: absolute;
+  width: 236px;
+  height: 648px;
+  top: 0;
+  left: 0;
+  background-color: #7166f9;
+  border-radius: 4px;
+}
+
+.payroll .overlap {
+  position: absolute;
+  width: 236px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+}
+
+.payroll .company-name-wrapper {
+  position: absolute;
+  width: 236px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: #dee1e6;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .company-name {
+  position: absolute;
+  top: 10px;
+  left: 59px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #6d31ed;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.payroll .image {
+  position: absolute;
+  width: 36px;
+  height: 34px;
+  top: 9px;
+  left: 14px;
+}
+
+.payroll .container-2 {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  top: 128px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .text-wrapper {
+  position: absolute;
+  top: 7px;
+  left: 50px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-text);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.payroll .img {
+  position: absolute;
+  width: 19px;
+  height: 18px;
+  top: 10px;
+  left: 19px;
+}
+
+.payroll .employee-name {
+  position: absolute;
+  top: 71px;
+  left: 80px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #f8f9fa;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.payroll .container-3 {
+  top: 186px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .image-2 {
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  top: 8px;
+  left: 17px;
+}
+
+.payroll .container-4 {
+  top: 244px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .image-3 {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  top: 8px;
+  left: 18px;
+}
+
+.payroll .container-5 {
+  top: 302px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .image-4 {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  top: 9px;
+  left: 18px;
+}
+
+.payroll .container-6 {
+  top: 360px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .image-5 {
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  top: 9px;
+  left: 18px;
+}
+
+.payroll .container-7 {
+  top: 418px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .image-6 {
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  top: 10px;
+  left: 19px;
+}
+
+.payroll .container-8 {
+  top: 476px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .image-7 {
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  top: 10px;
+  left: 18px;
+}
+
+.payroll .avatar {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 62px;
+  left: 25px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.payroll .rectangle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+}
+
+.payroll .container-9 {
+  position: absolute;
+  width: 221px;
+  height: 41px;
+  top: 534px;
+  left: 7px;
+  background-color: var(--variable-collection-secondary);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .overlap-group {
+  position: absolute;
+  width: 93px;
+  height: 27px;
+  top: 8px;
+  left: 15px;
+}
+
+.payroll .dark {
+  position: absolute;
+  top: 1px;
+  left: 24px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.payroll .image-8 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.payroll .overlap-2 {
+  position: absolute;
+  width: 95px;
+  height: 26px;
+  top: 8px;
+  left: 118px;
+  border-radius: 6px;
+}
+
+.payroll .button {
+  all: unset;
+  box-sizing: border-box;
+  width: 95px;
+  height: 26px;
+  top: 0;
+  left: 0;
+  background-color: #fefefe;
+  border-radius: 6px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.payroll .light {
+  position: absolute;
+  width: 62px;
+  top: 2px;
+  left: 27px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.payroll .image-9 {
+  position: absolute;
+  width: 18px;
+  height: 21px;
+  top: 3px;
+  left: 5px;
+}
+
+.payroll .container-10 {
+  position: absolute;
+  width: 1204px;
+  height: 53px;
+  top: -2px;
+  left: 236px;
+  background-color: #7166f9;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .group {
+  position: absolute;
+  width: 166px;
+  height: 52px;
+  top: 0;
+  left: 22px;
+}
+
+.payroll .overlap-group-2 {
+  position: relative;
+  height: 52px;
+}
+
+.payroll .frame {
+  width: 74px;
+  height: 52px;
+  left: 93px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-2 {
+  top: 14px;
+  left: 9px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.payroll .frame-2 {
+  width: 93px;
+  height: 52px;
+  left: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-3 {
+  top: 14px;
+  left: 43px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.payroll .vector {
+  position: absolute;
+  width: 21px;
+  height: 2px;
+  top: 25px;
+  left: 0;
+}
+
+.payroll .vector-2 {
+  position: absolute;
+  width: 21px;
+  height: 2px;
+  top: 19px;
+  left: 0;
+}
+
+.payroll .vector-3 {
+  position: absolute;
+  width: 21px;
+  height: 2px;
+  top: 31px;
+  left: 0;
+}
+
+.payroll .textbox {
+  width: 195px;
+  height: 31px;
+  top: 10px;
+  left: 209px;
+  background-color: var(--unnamed-color);
+  border-color: var(--variable-collection-primary);
+  position: absolute;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.payroll .text-wrapper-4 {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.payroll .group-2 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 8px;
+  left: 172px;
+}
+
+.payroll .vector-4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 17px;
+  left: 1154px;
+}
+
+.payroll .image-10 {
+  position: absolute;
+  width: 21px;
+  height: 20px;
+  top: 17px;
+  left: 1110px;
+}
+
+.payroll .text-wrapper-5 {
+  top: 64px;
+  left: 251px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 23px;
+  line-height: 36px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-6 {
+  top: 68px;
+  left: 1363px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-7 {
+  position: absolute;
+  top: 68px;
+  left: 1314px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.payroll .table {
+  position: absolute;
+  width: 1160px;
+  height: 213px;
+  top: 417px;
+  left: 250px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #dee1e6;
+}
+
+.payroll .header {
+  position: absolute;
+  width: 1158px;
+  height: 47px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.payroll .overlap-group-3 {
+  position: relative;
+  width: 1160px;
+  height: 49px;
+  top: -1px;
+  left: -1px;
+}
+
+.payroll .div-wrapper {
+  width: 175px;
+  height: 49px;
+  left: 0;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-8 {
+  width: 141px;
+  top: 12px;
+  left: 16px;
+  font-family: "Lexend-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #171a1f;
+  position: absolute;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-3 {
+  width: 146px;
+  height: 49px;
+  left: 173px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-9 {
+  width: 112px;
+  top: 12px;
+  left: 16px;
+  font-family: "Lexend-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #171a1f;
+  text-align: center;
+  position: absolute;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-4 {
+  width: 130px;
+  height: 49px;
+  left: 317px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-10 {
+  width: 96px;
+  top: 12px;
+  font-family: "Lexend-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #171a1f;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  left: 16px;
+  letter-spacing: 0;
+}
+
+.payroll .frame-5 {
+  width: 117px;
+  height: 49px;
+  left: 445px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-11 {
+  position: absolute;
+  width: 83px;
+  top: 12px;
+  left: 16px;
+  font-family: "Lexend-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-6 {
+  width: 134px;
+  height: 49px;
+  left: 560px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-12 {
+  position: absolute;
+  width: 100px;
+  top: 12px;
+  left: 16px;
+  font-family: "Lexend-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #171a1f;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-7 {
+  width: 147px;
+  height: 49px;
+  left: 692px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-13 {
+  width: 113px;
+  left: 16px;
+  font-family: "Lexend-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #171a1f;
+  font-size: 14px;
+  text-align: center;
+  position: absolute;
+  top: 12px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-8 {
+  width: 123px;
+  height: 49px;
+  left: 837px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-14 {
+  width: 89px;
+  font-family: "Lexend-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #171a1f;
+  font-size: 14px;
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-9 {
+  width: 81px;
+  height: 49px;
+  left: 958px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-15 {
+  position: absolute;
+  width: 47px;
+  top: 12px;
+  left: 16px;
+  font-family: "Lexend-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-10 {
+  width: 123px;
+  height: 49px;
+  left: 1037px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-16 {
+  position: absolute;
+  width: 89px;
+  top: 12px;
+  left: 16px;
+  font-family: "Lexend-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #171a1f;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .row {
+  height: 39px;
+  top: 47px;
+  position: absolute;
+  width: 1158px;
+  left: 0;
+}
+
+.payroll .overlap-3 {
+  position: relative;
+  width: 1160px;
+  height: 41px;
+  top: -1px;
+  left: -1px;
+}
+
+.payroll .frame-11 {
+  width: 175px;
+  height: 41px;
+  left: 0;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-17 {
+  position: absolute;
+  width: 141px;
+  top: 8px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-12 {
+  width: 146px;
+  height: 41px;
+  left: 173px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-18 {
+  top: 8px;
+  position: absolute;
+  width: 112px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-13 {
+  width: 130px;
+  height: 41px;
+  left: 317px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-19 {
+  width: 96px;
+  top: 8px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 13px;
+  line-height: 22px;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.payroll .frame-14 {
+  width: 117px;
+  height: 41px;
+  left: 445px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-20 {
+  width: 83px;
+  top: 8px;
+  color: #171a1f;
+  position: absolute;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-15 {
+  width: 134px;
+  height: 41px;
+  left: 560px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-21 {
+  width: 100px;
+  top: 8px;
+  color: #171a1f;
+  text-align: center;
+  position: absolute;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-16 {
+  width: 147px;
+  height: 41px;
+  left: 692px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-22 {
+  top: 8px;
+  position: absolute;
+  width: 113px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #d68d8d;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-17 {
+  width: 123px;
+  height: 41px;
+  left: 837px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-23 {
+  width: 89px;
+  top: 8px;
+  color: #92d697;
+  position: absolute;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .frame-18 {
+  width: 81px;
+  height: 41px;
+  left: 958px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-24 {
+  width: 47px;
+  top: 9px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #92d697;
+  font-size: 12px;
+  line-height: 20px;
+  position: absolute;
+  left: 16px;
+  letter-spacing: 0;
+}
+
+.payroll .frame-19 {
+  width: 123px;
+  height: 41px;
+  left: 1037px;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #dee1e6;
+  position: absolute;
+  top: 0;
+}
+
+.payroll .text-wrapper-25 {
+  top: 8px;
+  position: absolute;
+  width: 89px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9ad9ff;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .overlap-wrapper {
+  height: 39px;
+  top: 86px;
+  position: absolute;
+  width: 1158px;
+  left: 0;
+}
+
+.payroll .text-wrapper-26 {
+  position: absolute;
+  width: 47px;
+  top: 9px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #dea0a0;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.payroll .overlap-group-wrapper {
+  height: 39px;
+  top: 125px;
+  position: absolute;
+  width: 1158px;
+  left: 0;
+}
+
+.payroll .row-2 {
+  height: 47px;
+  top: 164px;
+  position: absolute;
+  width: 1158px;
+  left: 0;
+}
+
+.payroll .text-wrapper-27 {
+  position: absolute;
+  width: 141px;
+  top: 12px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .text-wrapper-28 {
+  top: 12px;
+  position: absolute;
+  width: 112px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .text-wrapper-29 {
+  width: 96px;
+  top: 12px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 13px;
+  line-height: 22px;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.payroll .text-wrapper-30 {
+  width: 83px;
+  top: 12px;
+  color: #171a1f;
+  position: absolute;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .text-wrapper-31 {
+  width: 100px;
+  top: 12px;
+  color: #171a1f;
+  text-align: center;
+  position: absolute;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .text-wrapper-32 {
+  top: 12px;
+  position: absolute;
+  width: 113px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #d68d8d;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .text-wrapper-33 {
+  width: 89px;
+  top: 12px;
+  color: #92d697;
+  position: absolute;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .text-wrapper-34 {
+  position: absolute;
+  width: 47px;
+  top: 13px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #bdc1ca;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.payroll .text-wrapper-35 {
+  top: 12px;
+  position: absolute;
+  width: 89px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9ad9ff;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  width: 83px;
+  height: 31px;
+  top: 371px;
+  left: 1326px;
+  background-color: var(--variable-collection-background);
+  border-radius: 3px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.payroll .text-wrapper-36 {
+  top: 6px;
+  left: 25px;
+  color: #fffefe;
+  font-size: 10px;
+  line-height: 17px;
+  position: absolute;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.payroll .overlap-4 {
+  position: absolute;
+  width: 187px;
+  height: 26px;
+  top: 372px;
+  left: 250px;
+  border-radius: 3px;
+}
+
+.payroll .search-for-employee-wrapper {
+  width: 187px;
+  height: 26px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-color: #e0e5f0;
+  position: absolute;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.payroll .search-for-employee {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #bdc1ca;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 17px;
+  white-space: nowrap;
+}
+
+.payroll .search {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 6px;
+  left: 6px;
+}
+
+.payroll .container-11 {
+  position: absolute;
+  width: 186px;
+  height: 115px;
+  top: 115px;
+  left: 467px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .text-wrapper-37 {
+  top: 39px;
+  left: 14px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #6d31ed;
+  font-size: 26px;
+  line-height: 40px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.payroll .text-wrapper-38 {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #6d31ed;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-39 {
+  position: absolute;
+  top: 82px;
+  left: 32px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-text);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.payroll .image-11 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 12px;
+  left: 135px;
+}
+
+.payroll .image-12 {
+  position: absolute;
+  width: 17px;
+  height: 16px;
+  top: 83px;
+  left: 14px;
+}
+
+.payroll .container-12 {
+  position: absolute;
+  width: 186px;
+  height: 115px;
+  top: 115px;
+  left: 251px;
+  background-color: #fbfdff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .text-wrapper-40 {
+  position: absolute;
+  top: 11px;
+  left: 15px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #6d31ed;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-41 {
+  position: absolute;
+  top: 39px;
+  left: 17px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #6d31ed;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-42 {
+  position: absolute;
+  top: 82px;
+  left: 20px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-text);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.payroll .image-13 {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  top: 14px;
+  left: 138px;
+}
+
+.payroll .container-13 {
+  position: absolute;
+  width: 187px;
+  height: 113px;
+  top: 117px;
+  left: 683px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .text-wrapper-43 {
+  position: absolute;
+  top: 36px;
+  left: 16px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #6d31ed;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-44 {
+  position: absolute;
+  top: 82px;
+  left: 33px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-300 {
+  position: absolute;
+  top: 82px;
+  left: 17px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-45 {
+  top: 11px;
+  left: 16px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #6d31ed;
+  font-size: 13px;
+  line-height: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.payroll .image-14 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 83px;
+  left: 15px;
+}
+
+.payroll .image-15 {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  top: 9px;
+  left: 134px;
+}
+
+.payroll .container-14 {
+  position: absolute;
+  width: 186px;
+  height: 115px;
+  top: 240px;
+  left: 251px;
+  background-color: #fbfdff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .text-wrapper-46 {
+  position: absolute;
+  top: 37px;
+  left: 17px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #6d31ed;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-47 {
+  position: absolute;
+  top: 82px;
+  left: 20px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-text);
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-48 {
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #6d31ed;
+  font-size: 13px;
+  white-space: nowrap;
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .container-15 {
+  position: absolute;
+  width: 186px;
+  height: 115px;
+  top: 240px;
+  left: 467px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .text-wrapper-49 {
+  position: absolute;
+  top: 37px;
+  left: 15px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #6d31ed;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-50 {
+  position: absolute;
+  top: 82px;
+  left: 17px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-text);
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-51 {
+  left: 15px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary);
+  font-size: 13px;
+  white-space: nowrap;
+  position: absolute;
+  top: 12px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.payroll .container-16 {
+  position: absolute;
+  width: 187px;
+  height: 115px;
+  top: 240px;
+  left: 683px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .text-wrapper-52 {
+  position: absolute;
+  top: 37px;
+  left: 16px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #6d31ed;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-53 {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #6d31ed;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.payroll .image-16 {
+  position: absolute;
+  width: 36px;
+  height: 34px;
+  top: 14px;
+  left: 136px;
+}
+
+.payroll .container-17 {
+  position: absolute;
+  width: 213px;
+  height: 240px;
+  top: 117px;
+  left: 900px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.payroll .p {
+  position: absolute;
+  top: 153px;
+  left: 35px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #bdc1ca;
+  font-size: 9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-54 {
+  position: absolute;
+  top: 126px;
+  left: 79px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.payroll .text-wrapper-55 {
+  top: 103px;
+  left: 75px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #bdc1ca;
+  font-size: 13px;
+  text-align: center;
+  line-height: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.payroll .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  width: 101px;
+  height: 31px;
+  top: 186px;
+  left: 60px;
+  background-color: var(--variable-collection-background);
+  border-radius: 3px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.payroll .text-wrapper-56 {
+  top: 6px;
+  left: 16px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #fffefe;
+  font-size: 10px;
+  line-height: 17px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.payroll .image-17 {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 41px;
+  left: 84px;
+}
+
+.payroll .image-18 {
+  position: absolute;
+  width: 266px;
+  height: 240px;
+  top: 117px;
+  left: 1143px;
+}
+
+.container-2:hover {
+  background-color: purple;
+}
+
+.container-3:hover {
+  background-color: purple;
+}
+
+.container-4:hover {
+  background-color: purple;
+}
+
+.container-5:hover {
+  background-color: purple;
+}
+
+.container-6:hover {
+  background-color: purple;
+}
+
+.container-7:hover {
+  background-color: purple;
+}
+
+.container-8:hover {
+  background-color: purple;
+}

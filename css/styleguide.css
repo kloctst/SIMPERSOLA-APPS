@@ -1,0 +1,9 @@
+:root {
+  --unnamed-color: rgba(213, 214, 215, 1);
+  --secondary: rgba(108, 109, 224, 1);
+  --variable-collection-primary: rgba(109, 49, 237, 1);
+  --variable-collection-secondary: rgba(211, 193, 250, 1);
+  --variable-collection-text: rgba(23, 26, 31, 1);
+  --variable-collection-background: rgba(108, 109, 224, 1);
+  --variable-collection-color: rgba(16, 171, 238, 1);
+}
